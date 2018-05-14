@@ -1,5 +1,10 @@
 const x=document.querySelector('button')
 x.addEventListener('click',function(){
-const y= document.querySelector('h1')
-y.textContent="CLICKED"
+    if(document.querySelector('#name').value=="")
+    {
+    alert("PLEASE ENTER NAME")
+    return
+    }
+const y= document.querySelector('#pick_me')
+y.textContent=document.querySelector('#name').value
 })
