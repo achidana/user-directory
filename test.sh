@@ -1,11 +1,9 @@
 #!/bin/bash
-export $c=0
-
 git add -A
-msg="Commit"+$c
+echo "ENTER COMMIT MESSAGE:"
+read msg
 git commit -m $msg
-c++
-
+git push
 
 
 
