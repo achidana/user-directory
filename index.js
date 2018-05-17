@@ -1,6 +1,5 @@
 const x=document.querySelector('button')
 x.addEventListener('click',function(){
-    debugger
     if(document.querySelector('#name').value=="")
     {
     alert("PLEASE ENTER NAME")
